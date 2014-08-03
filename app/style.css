@@ -1,4 +1,51 @@
-p.p1 {
-  margin: 0.0px 0.0px 0.0px 0.0px; 
-  font: 12.0px Helvetica
+body {
+  background-color: #FCF0E4;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-family: Helvetica;
+  margin-top: 50px;1
+}
+
+img {
+  margin-top: 50px;
+  padding: 0 100px;
+}
+
+.tools-menu {
+  margin: 20px;
+}
+
+.gallery-container {
+  position: relative;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.gallery-container button {
+  position: absolute;
+  top: 50%;
+  width: 70px;
+  border: none;
+  background: transparent;
+  font-size: 50px;
+  color: #4c2a0f; 
+  font-family: monospace;
+
+}
+
+.gallery-container button:hover {
+  font-size: 60px;
+  cursor: pointer;
+
+}
+
+.gallery-container button:focus {
+  outline: none;
+}
+
+.gallery-container button.next {
+  right: 0;
 }
